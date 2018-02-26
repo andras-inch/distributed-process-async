@@ -1,5 +1,5 @@
 name:           distributed-process-async
-version:        0.2.4
+version:        0.2.4.1
 cabal-version:  >=1.8
 build-type:     Simple
 license:        BSD3
@@ -65,11 +65,11 @@ test-suite AsyncTests
                    distributed-process-systest >= 0.1.0 && < 0.2.0,
                    exceptions >= 0.8.2.1 && < 0.9,
                    network >= 2.5 && < 2.7,
-                   network-transport >= 0.4 && < 0.5,
-                   network-transport-tcp >= 0.4 && < 0.6,
+                   network-transport >= 0.4 && < 0.6,
+                   network-transport-tcp >= 0.6 && < 0.7,
                    binary >= 0.6.3.0 && < 0.9,
                    deepseq >= 1.3.0.1 && < 1.5,
-                   HUnit >= 1.2 && < 2,
+                   -- HUnit >= 1.2 && < 2,
                    stm >= 2.3 && < 2.5,
                    test-framework >= 0.6 && < 0.9,
                    test-framework-hunit,
