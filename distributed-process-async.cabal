@@ -8,7 +8,6 @@ stability:      experimental
 Copyright:      Tim Watson 2012 - 2016
 Author:         Tim Watson
 Maintainer:     Tim Watson <watson.timothy@gmail.com>
-Stability:      experimental
 Homepage:       http://github.com/haskell-distributed/distributed-process-async
 Bug-Reports:    http://github.com/haskell-distributed/distributed-process-async/issues
 synopsis:       Cloud Haskell Async API
